@@ -12,6 +12,7 @@
     $_gender = $_POST["gender"];
     $_mobile = $_POST["mobile"];
 
+    # ตรวจสอบค่าตัวแปร ไม่้ให้ว่าง
     if(empty($_user_name)|| empty($_password)|| empty($_re_password)|| empty($_age)|| empty($_gender)|| empty($_mobile)){  
         redirect_register_page();
     }else{
