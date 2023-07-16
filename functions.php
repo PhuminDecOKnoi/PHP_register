@@ -2,6 +2,7 @@
     # วัตถุประสงค์
     # การสร้างงานฟังก์ชันเบื้องต้นใน PHP
     # การนำฟังก์ชันไปใช้งานใน PHP
+    # เพิ่มลงใน Github.com
 
 # function สำหรับการกำหนด title page
 function set_title_page($_set_title_Name){
