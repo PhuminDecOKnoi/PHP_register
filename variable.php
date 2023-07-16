@@ -14,5 +14,15 @@
 
     if($a == $b) echo "เกิดข้อผิดพลาด" ;
 
+    if(empty($a))
+        echo "a is set value";
+
+    else
+        echo "a is not set value";
+    
+    # 
+
+    
+
     include("footer.php");
 ?>
