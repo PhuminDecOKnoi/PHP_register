@@ -20,9 +20,18 @@
     else
         echo "a is not set value";
     
-    # 
+    # Conts
 
-    
+    define("MYSQL_HOST","localhost");
+    define("MYSQL_USER","root");
+    define("MYSQL_PWD","");
+    define("MYSQL_DATABASE","test");
+
+    echo MYSQL_HOST."-".
+    MYSQL_USER."-".
+    MYSQL_PWD."-".
+    MYSQL_DATABASE;
+
 
     include("footer.php");
 ?>
