@@ -1,6 +1,6 @@
 <?php
 
-    include("function.php"); # การนำไฟล์ฟังก์ชันมาใช้งาน (Function.php)
+    include("functions.php"); # การนำไฟล์ฟังก์ชันมาใช้งาน (Function.php)
 
     $_get_title_page = "Register Page"; # การกำหนดชื่อเพจ
     set_header($_get_title_page); # การรับค่า HTML header มาใช้งาน
